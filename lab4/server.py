@@ -7,6 +7,12 @@ CORS(app) # This allows your HTML file to talk to the server
 
 data_file = "login_data.txt"
 
+@app.route('/')
+def home():
+    # This reads your HTML file and sends it to the user's browser
+    with open('index.html', 'r') as f:
+        return f.read()
+
 @app.route('/submit', methods=['POST'])
 def submit_data():
     data = request.get_json()

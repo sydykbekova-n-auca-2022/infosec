@@ -1,0 +1,9 @@
+Script started on Tue Mar  3 23:10:58 2026
+Restored session: Tue Mar  3 21:25:19 +06 2026
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab9[0m[27m[24m[Jnur@Nurs-MacBook-Pro lab9 % [K[?2004h[7mcp ~/.vimrc ./lab8/my_vim_config.txt[27m[36D[27mc[27mp[27m [27m~[27m/[27m.[27mv[27mi[27mm[27mr[27mc[27m [27m.[27m/[27ml[27ma[27mb[27m8[27m/[27mm[27my[27m_[27mv[27mi[27mm[27m_[27mc[27mo[27mn[27mf[27mi[27mg[27m.[27mt[27mx[27m                                c  eexit[?2004l
+
+Saving session...
+...saving history...truncating history files...
+...completed.
+
+Script done on Tue Mar  3 23:15:37 2026

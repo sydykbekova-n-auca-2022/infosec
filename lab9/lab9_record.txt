@@ -1,0 +1,75 @@
+Script started on Tue Mar  3 23:10:37 2026
+
+nur@Nurs-MacBook-Pro lab9 % brew services list
+Name          Status  User        File
+nginx         started nur@Nurs    ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist
+postgresql@14 started nur@Nurs    ~/Library/LaunchAgents/homebrew.mxcl.postgresql@14.plist
+
+nur@Nurs-MacBook-Pro lab9 % brew info nginx
+==> nginx ✔: stable 1.29.5 (bottled), HEAD
+HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server
+https://nginx.org/
+Installed
+/opt/homebrew/Cellar/nginx/1.29.5 (27 files, 2.6MB) *
+  Poured from bottle using the formulae.brew.sh API on 2026-03-03 at 23:02:07
+From: https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/n/nginx.rb
+License: BSD-2-Clause
+
+==> Dependencies
+Required: openssl@3 ✔, pcre2 ✔
+
+==> Options
+--HEAD
+    Install HEAD version
+
+==> Caveats
+Docroot is: /opt/homebrew/var/www
+
+The default port has been set in /opt/homebrew/etc/nginx/nginx.conf to 8080 so that
+nginx can run without sudo.
+
+nginx will load all files in /opt/homebrew/etc/nginx/servers/.
+
+To restart nginx after an upgrade:
+  brew services restart nginx
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/nginx/bin/nginx -g daemon\ off\;
+
+==> Analytics
+install: 10,276 (30 days), 28,285 (90 days), 136,859 (365 days)
+install-on-request: 10,235 (30 days), 28,183 (90 days), 136,583 (365 days)
+build-error: 2 (30 days)
+
+nur@Nurs-MacBook-Pro lab9 % brew deps nginx
+ca-certificates
+openssl@3
+pcre2
+
+nur@Nurs-MacBook-Pro lab9 % curl http://localhost:8080
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+html { color-scheme: light dark; }
+body { width: 35em; margin: 0 auto;
+font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+
+nur@Nurs-MacBook-Pro lab9 % exit
+
+Script done on Tue Mar  3 23:11:44 2026

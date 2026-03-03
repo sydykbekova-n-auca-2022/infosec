@@ -1,0 +1,11 @@
+" Basic Security & UI Settings
+syntax on            " Enable syntax highlighting
+set number           " Show line numbers
+set relativenumber   " Help with jumping lines (Advanced)
+set mouse=a          " Enable mouse support if needed
+set tabstop=4        " 4 spaces for tabs
+set expandtab        " Use spaces instead of tabs (standard for Python)
+set ignorecase       " Case insensitive search
+set smartcase        " Become case sensitive if capital letter us
+set undofile
+set undodir=~/.vim/undo

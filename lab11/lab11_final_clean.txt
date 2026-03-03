@@ -1,0 +1,21 @@
+Script started on Wed Mar  4 00:13:31 2026
+%                                                                                ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab11nur@Nurs-MacBook-Pro lab11 % [?2004huname -a[8Duname -a[?2004l
+Darwin Nurs-MacBook-Pro.local 25.2.0 Darwin Kernel Version 25.2.0: Tue Nov 18 21:09:34 PST 2025; root:xnu-12377.61.12~1/RELEASE_ARM64_T8112 arm64
+%                                                                                ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab11nur@Nurs-MacBook-Pro lab11 % [?2004hgit clone https://github.com/mtoyoda/sl.git[43Dgit clone https://github.com/mtoyoda/sl.git[?2004l
+fatal: destination path 'sl' already exists and is not an empty directory.
+%                                                                                ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab11nur@Nurs-MacBook-Pro lab11 % [?2004hccd sl[?2004l
+%                                                                                ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab11/slnur@Nurs-MacBook-Pro sl % [?2004hmmake clean[?2004l
+rm -f sl
+%                                                                                ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab11/slnur@Nurs-MacBook-Pro sl % [?2004hmmake[?2004l
+gcc -O -Wall -o sl sl.c -lncurses
+%                                                                                ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab11/slnur@Nurs-MacBook-Pro sl % [?2004hls -l sl[8Dls -l sl[?2004l
+-rwxr-xr-x  1 nur  staff  35104 Mar  4 00:14 sl
+%                                                                                ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab11/slnur@Nurs-MacBook-Pro sl % [?2004hwhich sl[8Dwhich sl[?2004l
+/usr/local/bin/sl
+%                                                                                ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab11/slnur@Nurs-MacBook-Pro sl % [?2004heexit[?2004l
+
+Saving session...
+...saving history...truncating history files...
+...completed.
+
+Script done on Wed Mar  4 00:14:30 2026

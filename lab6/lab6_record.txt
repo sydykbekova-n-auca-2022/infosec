@@ -1,0 +1,30 @@
+Script started on Tue Mar  3 21:20:51 2026
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab6[0m[27m[24m[Jnur@Nurs-MacBook-Pro lab6 % [K[?2004h[7mtouch file.txt[27m[14D[27mt[27mo[27mu[27mc[27mh[27m [27mf[27mi[27ml[27me[27m.[27mt[27mx[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab6[0m[27m[24m[Jnur@Nurs-MacBook-Pro lab6 % [K[?2004h[7mls -la file.txt[27m[15D[27ml[27ms[27m [27m-[27ml[27ma[27m [27mf[27mi[27ml[27me[27m.[27mt[27mx[27mt[?2004l
+-rw-r--r--  1 nur  staff  0 Mar  3 21:21 file.txt
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab6[0m[27m[24m[Jnur@Nurs-MacBook-Pro lab6 % [K[?2004h[7mchmod 754 file.txt[27m[18D[27mc[27mh[27mm[27mo[27md[27m [27m7[27m5[27m4[27m [27mf[27mi[27ml[27me[27m.[27mt[27mx[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab6[0m[27m[24m[Jnur@Nurs-MacBook-Pro lab6 % [K[?2004h[7mls -la file.txt[27m[15D[27ml[27ms[27m [27m-[27ml[27ma[27m [27mf[27mi[27ml[27me[27m.[27mt[27mx[27mt[?2004l
+-rwxr-xr--  1 nur  staff  0 Mar  3 21:21 file.txt
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab6[0m[27m[24m[Jnur@Nurs-MacBook-Pro lab6 % [K[?2004h[7msudo chgrp mylabgroup file.txt[27m[30D[27ms[27mu[27md[27mo[27m [27mc[27mh[27mg[27mr[27mp[27m [27mm[27my[27ml[27ma[27mb[27mg[27mr[27mo[27mu[27mp[27m [27mf[27mi[27ml[27me[27m.[27mt[27mx[27mt[?2004l
+Password:
+chgrp: mylabgroup: illegal group name
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab6[0m[27m[24m[Jnur@Nurs-MacBook-Pro lab6 % [K[?2004hsudo chgrp mylabgroup file.txt[P[14C [15D[P[14C [15D[P[14C [15D[1C[P[13C [14D roup file.txt[13Dgroup file.txt[13D[?2004l
+chgrp: my: illegal group name
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab6[0m[27m[24m[Jnur@Nurs-MacBook-Pro lab6 % [K[?2004h[7msudo chgrp "mylabgroup" file.txt[27m[32D[27ms[27mu[27md[27mo[27m [27mc[27mh[27mg[27mr[27mp[27m [27m"[27mm[27my[27ml[27ma[27mb[27mg[27mr[27mo[27mu[27mp[27m"[27m [27mf[27mi[27ml[27me[27m.[27mt[27mx[27mt[?2004l
+chgrp: mylabgroup: illegal group name
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab6[0m[27m[24m[Jnur@Nurs-MacBook-Pro lab6 % [K[?2004hsudo chgrp "mylabgroup" file.txt[21Dmy group[4P[9C    [15Dlabgroup file.txt[P[14C [15D[P[14C [15D[?2004l
+chgrp: mylgroup: illegal group name
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab6[0m[27m[24m[Jnur@Nurs-MacBook-Pro lab6 % [K[?2004hsudo chgrp mylgroup file.txt[P[14C [15D[P[14C [15D[?2004l
+chgrp: mgroup: illegal group name
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab6[0m[27m[24m[Jnur@Nurs-MacBook-Pro lab6 % [K[?2004hsudo chgrp mgroup file.txt[P[13C [14D[P[13C [14D[1C[1C[1C[1C[P[9C [10D[P[9C [10D[P[9C [10D[P[9C [10Dg file.txt[9Dr file.txt[9Dp file.txt[9Du file.txt[9D[P[9C [10D[P[9C [10Do file.txt[9Du file.txt[9Dp file.txt[9D[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab6[0m[27m[24m[Jnur@Nurs-MacBook-Pro lab6 % [K[?2004h[7msudo chown user1 file.txt[27m[25D[27ms[27mu[27md[27mo[27m [27mc[27mh[27mo[27mw[27mn[27m [27mu[27ms[27me[27mr[27m1[27m [27mf[27mi[27ml[27me[27m.[27mt[27mx[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab6[0m[27m[24m[Jnur@Nurs-MacBook-Pro lab6 % [K[?2004h[7mls -la file.txt[27m[15D[27ml[27ms[27m [27m-[27ml[27ma[27m [27mf[27mi[27ml[27me[27m.[27mt[27mx[27mt[?2004l
+-rwxr-xr--  1 user1  group  0 Mar  3 21:21 file.txt
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Nurs-MacBook-Pro.local/Users/nur/Documents/infosec/lab6[0m[27m[24m[Jnur@Nurs-MacBook-Pro lab6 % [K[?2004h[7mexit[27m[27me[27mx[27mi[27mt[?2004l
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+Script done on Tue Mar  3 21:25:19 2026

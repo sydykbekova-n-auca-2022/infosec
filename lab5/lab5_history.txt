@@ -1,0 +1,50 @@
+ 1024  git add .
+ 1025  git commit -m "lab4 completed"
+ 1026  git push
+ 1027  cd ..
+ 1028  mkdir lab5
+ 1029  cd lab5
+ 1030  sudo adduser user1
+ 1031  adduser user1
+ 1032  dscl . list /Users
+ 1033  dscl . read /Users/nur
+ 1034  sudo sysadminctl -addUser user1 -fullName "Lab User One" -password "Password123"
+ 1035  dscl . -read /Users/user1
+ 1036  su - user1
+ 1037  su - user1
+ 1038  su - user1
+ 1039  sudo dscl . -replace /Users/user1 RealName "New User Name"
+ 1040  dscl . -read /Users/user1
+ 1041  sudo dscl . -replace /Users/user1 RealName "New User Name"
+ 1042  sudo pkill -KILL -u user1
+ 1043  sudo sysadminctl -deleteUser user1
+ 1044  dscl . -list /Groups
+ 1045  sudo dscl . -create /Groups/mylabgroup
+ 1046  sudo dscl . -create /Groups/mylabgroup PrimaryGroupID 600
+ 1047  sudo dscl . -append /Groups/mylabgroup GroupMembership user1
+ 1048  id user1
+ 1049  sudo sysadminctl -addUser user1 -fullName "Lab User One" -password "LabPass123"
+ 1050  id user1
+ 1051  ls -ld /Users/user1
+ 1052  su - user1
+ 1053  sudo dscl . -replace /Users/user1 RealName "Nurs Lab User"
+ 1054  dscl . -list /Groups
+ 1055  sudo sysadminctl -addUser user2 -fullName "Second Lab User" -password "Pass123"
+ 1056  sudo dscl . -append /Groups/group GroupMembership user2
+ 1057  id user2
+ 1058  dscl . -read /Groups/group GroupMembership
+ 1059  sudo dscl . -append /Groups/mylabgroup GroupMembership user1
+ 1060  dscl . -read /Groups/group GroupMembership
+ 1061  sudo dscl . -append /Groups/group GroupMembership user1
+ 1062  dscl . -read /Groups/group GroupMembership
+ 1063  dscl . -list /Groups
+ 1064  rm -rf mylabgroup
+ 1065  ls
+ 1066  dscl . -list /Groups
+ 1067  sudo dscl . -delete /Groups/mylabgroup
+ 1068  dscl . -list /Groups
+ 1069  history | grep -E "sysadminctl|dscl|id|user1|user2|mylabgroup|su|whoami"
+ 1070  history 50 > lab5_commands.txt
+ 1071  ls
+ 1072  nano lab5_commands.txt
+ 1073  rm -rf lab5_commands.txt
